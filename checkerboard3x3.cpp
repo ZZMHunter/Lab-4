@@ -13,7 +13,7 @@
 
 int main(){
     int width, height;
-
+    //takes user inputs for width and height
     std::cout << "Enter width: ";
     std::cin >> width;
     std::cout << "Enter height: ";

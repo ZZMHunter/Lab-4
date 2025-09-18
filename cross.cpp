@@ -28,7 +28,14 @@ int main(){
         }
         std::cout << std::endl;
     }
-    
+    //in the case that size is odd print a singular * in the center
+    if (size%2 == 1){
+        for (int i = 0; i < size/2; i++){
+            std::cout << " ";
+        }
+        std::cout << "*";
+        std::cout << std::endl;
+    }
     for (int i = size/2-1; i >= 0; i--){
         //bottom half of the cross
         for (int j = 0; j < i; j++){

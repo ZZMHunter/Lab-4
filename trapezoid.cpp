@@ -17,7 +17,8 @@ int main(){
     std::cin >> width;
     std::cout << "Enter height: ";
     std::cin >> height;
-
+    //the width of the shape is reduced by 2 for every height past the first, so
+    //if (height-1)*2 the amount it will be reduced excedes width, it wouldn't be able to create the shape
     if ((height-1)*2 > width){
         std::cout << "Impossible shape!" << std::endl;
         exit(1);
