@@ -20,7 +20,7 @@ int main(){
     //nested for loop to give the shape 2 dimensionns
     for (int i = 0; i < height; i++){
         for (int j = 0; j < width; j++){
-            std::cout << "* ";
+            std::cout << "*";
         }
         std::cout << std::endl;
     }
