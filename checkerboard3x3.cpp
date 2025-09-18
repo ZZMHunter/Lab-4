@@ -18,7 +18,7 @@ int main(){
     std::cin >> width;
     std::cout << "Enter height: ";
     std::cin >> height;
-
+    std::cout << std::endl;
     for (int i = 0; i < height; i++){
         for (int j = 0; j < width; j ++){
             //change logic based on height, every 3 rows logic alternates

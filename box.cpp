@@ -16,6 +16,7 @@ int main(){
     std::cin >> width;
     std::cout << "Input height: ";
     std::cin >> height;
+    std::cout << std::endl;
     //nested for loop to give the shape 2 dimensionns
     for (int i = 0; i < height; i++){
         for (int j = 0; j < width; j++){

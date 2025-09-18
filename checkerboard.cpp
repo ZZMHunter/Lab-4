@@ -17,6 +17,7 @@ int main(){
     std::cin >> width;
     std::cout << "Input height: ";
     std::cin >> height;
+    std::cout << std::endl;
     for (int i = 0; i < height; i++){
         for (int j = 0; j < width; j++){
             //2 conditions so that on spaces and * will appear on either odd or even i/j values

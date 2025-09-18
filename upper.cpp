@@ -14,6 +14,7 @@ int main(){
     //takes user input for length
     std::cout << "Input side length: ";
     std::cin >> length;
+    std::cout << std::endl;
     //any time where width is greater than height is when * will appear
     for (int i = 0; i < length; i++){
         for (int j = 0; j < length; j++){

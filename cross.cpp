@@ -13,6 +13,7 @@ int main(){
     int size;
     std::cout << "Input size: ";
     std::cin >> size;
+    std::cout << std::endl;
     for (int i = 0; i < size/2; i++){
         //top half of the cross
         for (int j = 0; j < i; j++){
